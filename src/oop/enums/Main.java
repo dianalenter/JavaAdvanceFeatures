@@ -2,6 +2,14 @@ package oop.enums;
 
 public class Main {
     public static void main(String[] args) {
+
+        for (Planets planets : Planets.values()) {
+            System.out.println(planets);
+            Planets.JUPITER.distanceFromEarth();
+        }
+
+        System.out.println("********************");
+
         LengthUnit lengthUnit = LengthUnit.METER;
         System.out.println(lengthUnit + " has value " + lengthUnit.getValue());
         lengthUnit = LengthUnit.INCH;

@@ -2,7 +2,7 @@ package oop.exceptions;
 
 import java.util.Scanner;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         /**Try-Catch-Finnaly*/
         try {
@@ -52,5 +52,6 @@ public class main {
 //    {
 //        System.out.println("ai introdus un string ");
 //    }
-//
+
+
 }

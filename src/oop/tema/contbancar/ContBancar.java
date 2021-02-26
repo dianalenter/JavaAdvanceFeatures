@@ -1,4 +1,4 @@
-package oop.tema;
+package oop.tema.contbancar;
 
 /**
  * Să se construiască  clasa  ContBancar,  folosită pentru a modela un cont bancar, ce are ca variabilă
@@ -16,11 +16,16 @@ package oop.tema;
  * prin care se iniţializează suma de bani din cont şi rata dobânzii.
  * Suplimentar: Să se scrie şi o clasă de test pentru clasa ContBancarExtins.
  */
-public class ContBancar extends ContBancarExtins {
-    private int sum = 450000;
+public class ContBancar  {
+    public float balance;
+    public void addMoney(float z){
+    this.balance+=z;
+    }
+    public boolean withdrawMoney(float z){
+        return this.balance >=z;
+    }
 
-    @Override
-    public double ContBancar() {
-        return 0;
+    public float getBalance() {
+        return balance;
     }
 }

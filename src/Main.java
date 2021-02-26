@@ -1,8 +1,5 @@
 import oop.inherintence.*;
-import oop.tema.ContBancar;
-import oop.tema.ContBancarExtins;
-
-import java.awt.*;
+import oop.tema.contbancar.ContBancarExtins;
 
 
 public class Main {
@@ -10,24 +7,27 @@ public class Main {
     public static void main(String[] args) {
 
 
-
-
-
-
         //playWithPolymorphism();
         //playWithInherintence();
         //playWithAbstraction();
-       // playWithGeometricFigures();
-      //  playWithBankAccount();
+        // playWithGeometricFigures();
+        playWithBankAccount();
 
     }
 
+    public static void playWithBankAccount() {
+        ContBancarExtins account1 = new ContBancarExtins(300, 23);
+        System.out.println(account1.getBalance());
+        account1.addMonthlyInterest();
+        System.out.println(account1.getBalance());
+    }
+
     private static void playWithGeometricFigures() {
-   //     GeometricFigure figure = new GeometricFigure(); //the class is abstract and can not be instantiated
+        //     GeometricFigure figure = new GeometricFigure(); //the class is abstract and can not be instantiated
         GeometricFigure square = new Square(5);
         GeometricFigure circle = new Circle(5);
-        GeometricFigure triungle = new Triungle(4,5,7);
-        GeometricFigure dreptunchi = new Dreptunghi(2,5);
+        GeometricFigure triungle = new Triungle(4, 5, 7);
+        GeometricFigure dreptunchi = new Dreptunghi(2, 5);
 
         System.out.println("-------------------");
 
@@ -42,9 +42,6 @@ public class Main {
 
 
         System.out.println("--------------------------------------");
-
-
-
 
 
     }
@@ -107,8 +104,5 @@ public class Main {
         cat.feed();
         System.out.println(cat);
 
-    }
-    public static void playWithBankAccount(){
-        ContBancarExtins contBancar = new ContBancar();
     }
 }
