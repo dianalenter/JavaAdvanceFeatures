@@ -1,4 +1,4 @@
-package oop.exercitiiexceptions;
+package oop.exceptions.exercitiiexceptions;
 
 
 public class MyException extends Exception {

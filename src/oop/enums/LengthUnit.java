@@ -1,6 +1,6 @@
 package oop.enums;
 
-public enum LengthUnit {
+public enum LengthUnit {   //enums are predefinit un anumit set de obiecte,implicit extinde the enum class
     METER(1),
     CENTIMETER(4),
     FOOT(6),
@@ -9,6 +9,7 @@ public enum LengthUnit {
     double value;
 
     LengthUnit(double value) {
+
         this.value = value;
     }
 

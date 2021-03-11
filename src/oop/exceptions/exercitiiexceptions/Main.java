@@ -1,4 +1,4 @@
-package oop.exercitiiexceptions;
+package oop.exceptions.exercitiiexceptions;
 
 import java.util.Scanner;
 

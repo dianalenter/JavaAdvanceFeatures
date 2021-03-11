@@ -1,4 +1,4 @@
-package oop.map;
+package oop.collections.map;
 
 import java.util.HashMap;
 import java.util.Map;
