@@ -1,4 +1,4 @@
-package designe_patterns.patterns.abstract_factory;
+package designe_patterns.patterns.factory_method.abstract_factory1pizza;
 
 public class Capriciosa implements Pizza {
     @Override
