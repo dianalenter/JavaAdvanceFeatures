@@ -1,4 +1,4 @@
-package designe_patterns.patterns.sun;
+package designe_patterns.patterns.singleton.sun;
 
 public class Main {
     //
